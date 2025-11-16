@@ -1,0 +1,28 @@
+# Render Blueprint for YekiHastim Demo (Next.js SSR)
+services:
+  - type: web
+    name: yekihastim-demo
+    env: node
+    region: frankfurt
+    plan: free
+    autoDeploy: true
+    branch: main
+    rootDir: .
+    buildCommand: |
+      npm install
+      npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      # Public (safe) vars – update on Render after first deploy if needed
+      - key: NEXT_PUBLIC_SITE_URL
+        value: https://your-site.com
+      - key: NEXT_PUBLIC_SITE_NAME
+        value: "یکی هستیم - کانون توسعه گران جوان"
+      # Example: if you need a public API URL, uncomment and set
+      # - key: NEXT_PUBLIC_API_URL
+      #   value: https://your-api-domain.com/api/v1
+
+
