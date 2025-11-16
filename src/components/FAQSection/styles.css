@@ -1,0 +1,11 @@
+/* استایل برای collapse title در حالت باز */
+.collapse:has(input:checked) .collapse-title {
+  color: var(--color-Secondary-900) !important;
+  font-weight: bold !important;
+}
+
+/* یا استفاده از کلاس‌های DaisyUI */
+.collapse-open .collapse-title {
+  color: var(--color-Secondary-900) !important;
+  font-weight: bold !important;
+}

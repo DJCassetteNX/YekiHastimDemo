@@ -1,0 +1,83 @@
+.video-testimonials-swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-testimonials-swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-testimonials-swiper iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Pagination */
+.video-testimonials-swiper .swiper-pagination-bullet {
+  background: #ccc;
+  opacity: 0.5;
+  width: 8px;
+  height: 8px;
+  transition: all 0.3s ease;
+}
+
+.video-testimonials-swiper .swiper-pagination-bullet-active {
+  background: #fdb933 !important;
+  opacity: 1;
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+}
+
+/* Navigation */
+.video-testimonials-swiper .swiper-button-next,
+.video-testimonials-swiper .swiper-button-prev {
+  color: #00aeef;
+  background: rgba(0, 0, 0, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  margin-top: -25px;
+}
+
+.video-testimonials-swiper .swiper-button-next:hover,
+.video-testimonials-swiper .swiper-button-prev:hover {
+  background: rgba(253, 185, 51, 0.7);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* آیکون‌های سفارشی برای VideoTestimonials */
+.video-testimonials-swiper .swiper-button-next::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-30%, -50%) rotate(-45deg) !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-right: 2px solid currentColor !important;
+  border-bottom: 2px solid currentColor !important;
+}
+
+.video-testimonials-swiper .swiper-button-prev::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-70%, -50%) rotate(135deg) !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-right: 2px solid currentColor !important;
+  border-bottom: 2px solid currentColor !important;
+}
