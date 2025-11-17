@@ -9,7 +9,7 @@ const Volunteers = () => {
       <Header />
       <div className="w-full flex justify-center items-center mt-[92px]">
         <div className="w-full max-w-[1110px] mx-[20px]  flex flex-col justify-center items-start gap-7.5">
-          <div className="justify-start text-Primary-500 text-base font-bold font-Abar_Low_FaNum leading-relaxed text-right">
+          <div className="justify-start mt-[80px] text-Primary-500 text-base font-bold font-Abar_Low_FaNum leading-relaxed text-right">
             داوطلبین
           </div>
           <div className="self-stretch text-justify justify-start text-Text-Greyscale-800 text-sm font-normal font-Abar_Low_FaNum leading-[1.6]">

@@ -74,8 +74,9 @@ const SupButton = ({ cardRef }) => {
             }
           }}
           className={`  box-border w-[364px] h-[46px] text-[14px] font-bold   my-auto  justify-center items-center bg-Secondary-900 rounded-lg font-Abar_Low_FaNum text-Text-General-White  `}
+          suppressHydrationWarning
         >
-          Financial Support (Demo)
+          حمایت مالی (Demo)
         </button>
       </div>
     </div>

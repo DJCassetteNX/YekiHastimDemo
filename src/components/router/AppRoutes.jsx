@@ -31,8 +31,8 @@ const AppRoutes = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:projectId" element={<ProjectDetails />} />
 
-          <Route path="/sarpanah-amn" element={<SarpanahAmn />} />
-          <Route path="/about-us" element={<About />} />
+          <Route path="/sarpanahamn" element={<SarpanahAmn />} />
+          <Route path="/aboutus" element={<About />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/volunteers" element={<Volunteers />} />
           <Route path="/annual-report" element={<AnnualReport />} />

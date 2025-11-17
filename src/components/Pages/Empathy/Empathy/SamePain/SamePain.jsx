@@ -2,7 +2,7 @@ const SamePain = () => {
   return (
     <div className="w-full flex mt-[30px] flex-col gap-7.5">
       <div className="w-full mx-auto transition-all duration-300 ease-linear">
-        <h1 className="w-[300px] h-auto font-Abar_Low_FaNum text-[16px]  font-bold text-Primary-500  px-[20px]  lg:px-[45px] ">
+        <h1 className="w-[300px] h-auto font-Abar_Low_FaNum text-[16px]  font-bold text-Primary-500 mt-[80px]  px-[20px]  lg:px-[45px] ">
           مرهمی مشترک
         </h1>
       </div>

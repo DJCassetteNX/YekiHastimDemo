@@ -14,7 +14,7 @@ const Menu = ({ isHome, showSupportBtn }) => {
         {
           id: 2,
           title: "درباره‌ما",
-          pathname: "/about-us",
+          pathname: "/aboutus",
         },
         {
           id: 3,
@@ -28,8 +28,8 @@ const Menu = ({ isHome, showSupportBtn }) => {
         },
         {
           id: 5,
-          title: "پروژه‌های سرپناه‌من",
-          pathname: "/sarpanah-amn",
+          title: "پروژه‌های سرپناه‌امن",
+          pathname: "/sarpanahamn",
         },
         {
           id: 6,

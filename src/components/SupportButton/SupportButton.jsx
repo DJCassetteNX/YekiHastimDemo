@@ -21,7 +21,7 @@ const SupportButton = () => {
           : "opacity-0 translate-x-full pointer-events-none"
       }`}
     >
-      Financial Support (Demo)
+      حمایت مالی (Demo)
     </button>
   );
 };

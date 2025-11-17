@@ -82,7 +82,7 @@ const Header = ({ heroRef, cardRef, projectHeroRef }) => {
   return (
     <>
       {/* بنر دمو */}
-      <div className="fixed top-0 w-full bg-yellow-400 text-black text-center py-2 text-sm font-bold z-[60] font-Abar_Low_FaNum">
+      <div className="fixed top-0 w-full  mb-[30px] bg-Primary-500 text-black text-center py-2 text-sm font-bold z-[60] font-Abar_Low_FaNum">
         🚀 This is a demo version - in the main project, the payment gateway is
         active
       </div>

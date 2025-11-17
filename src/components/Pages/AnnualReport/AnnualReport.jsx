@@ -13,7 +13,7 @@ const AnnualReport = () => {
       <Header />
       <div className="w-full   flex justify-center items-center lg:mt-[104px] mt-[90px] mb-[61px]">
         <div className="w-full mx-[20px] max-w-[1110px] h-full flex flex-col justify-center items-start gap-[31px]  ">
-          <p className=" text-Primary-500 text-base font-bold font-Abar_Low_FaNum leading-relaxed">
+          <p className=" text-Primary-500 mt-[80px] text-base font-bold font-Abar_Low_FaNum leading-relaxed">
             گزارش عملکرد سالانه "یکی هستیم" در یک نگاه | سال ۱۴۰۳
           </p>
           <p className="text-Text-Greyscale-800 text-sm font-normal font-Abar_Low_FaNum leading-snug w-full ">
